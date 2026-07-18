@@ -1,0 +1,2 @@
+# Placeholder so the empty data/ folder is tracked by git.
+# Put raw .h5ad inputs, the clinical file, and generated intermediates here (see ../README.md).

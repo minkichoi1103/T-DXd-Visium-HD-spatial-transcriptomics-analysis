@@ -1,0 +1,25 @@
+# Python dependencies for the T-DXd Visium HD pipeline (Python >= 3.10).
+# Versions are intentionally unpinned; pin them to your working environment.
+
+scanpy
+squidpy
+anndata
+pandas
+numpy
+scipy
+scikit-image
+matplotlib
+seaborn
+statsmodels
+tacco
+commot
+
+# --- Not installable from PyPI (install separately) ---
+# STopover  : image-based ST topological colocalization (steps 7)
+#             https://github.com/  (install from source)
+# pbpk_st   : PBPK ADC payload-distribution simulation module providing
+#             PBPKSimulation_ADC (step 8); provided separately, not on PyPI.
+
+# --- R packages (steps 9, 10; install via install.packages / Bioconductor) ---
+# limma, decoupleR, tidyverse (dplyr, readr, tibble, forcats, ggplot2),
+# ggsci, RobustRankAggreg

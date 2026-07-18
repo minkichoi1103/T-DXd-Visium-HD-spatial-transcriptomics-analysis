@@ -1,0 +1,36 @@
+# --- Data & figures (bring your own; not distributed) ---
+data/*
+!data/.gitkeep
+figures/*
+!figures/.gitkeep
+
+# --- Large / binary spatial-omics data ---
+*.h5ad
+*.h5
+*.zarr
+*.loom
+*.mtx
+*.geojson
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# --- Python ---
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+.pybiomart.sqlite
+.ipynb_checkpoints
+
+# --- R ---
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+*.swp

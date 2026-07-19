@@ -100,4 +100,4 @@ described in the paper's Methods:
 
 ## License
 
-License **to be decided** Until a license is added, this code is **all rights reserved** by the authors.
+License **to be decided**. Until a license is added, this code is **all rights reserved** by the authors.
